@@ -31,7 +31,7 @@ public class MTv1 {
 	public final void testDecemberToJanuary(){ assertEquals("Invalid Next Year", trialDate.run(12, 31, 2021)); }
 
 	@Test
-	public final void testLeapYear(){
-		assertEquals("2/29/2004", trialDate.run(2, 28, 2004));
-	}
+	public final void testLeapYear(){ assertEquals("2/29/2004", trialDate.run(2, 28, 2004)); }
+
+
 }
